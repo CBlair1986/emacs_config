@@ -1,0 +1,31 @@
+* Emacs config
+** Use Package
+   The use-package macro is something that I'd like to be able to
+   employ here, but I need to go about it in the right way.
+#+BEGIN_SRC elisp
+(require 'package)
+(package-initialize)
+#+END_SRC
+** Evil mode
+   Since I'm used to vim-style keybindings, I think that I just need
+   to keep using them.
+#+BEGIN_SRC elisp
+(require 'evil)
+(require 'evil-escape)
+(evil-mode 1)
+(evil-escape-mode)
+#+END_SRC
+** Org mode
+   Obviously I need to use org-mode, day-to-day and otherwise.
+#+BEGIN_SRC elisp
+(require 'org)
+(add-hook 'text-mode-hook 'turn-on-auto-fill)
+#+END_SRC
+** Convenience
+   Ivy mode and others
+#+BEGIN_SRC elisp
+(ivy-mode 1)
+(setq ivy-use-virtual-buffers t)
+(setq ivy-count-format "(%d/%d) ")
+(which-key-mode 1)
+#+END_SRC

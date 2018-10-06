@@ -1,0 +1,15 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".dynalist.io"
+  [url-cookie "__cfduid" "d74f142e3da2172c690e7d27ef17a2c861538059528" "27 Sep 19 14:45:28 [GMT]" "/" ".dynalist.io" nil]
+  [url-cookie "HttpOnly" nil "27 Sep 19 14:45:28 [GMT]" "/" ".dynalist.io" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

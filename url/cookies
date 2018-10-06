@@ -1,0 +1,21 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("github.com"
+  [url-cookie "has_recent_activity" "1" "Fri, 05 Oct 2018 19:00:53 -0000" "/" "github.com" nil])
+ (".github.com"
+  [url-cookie "_octo" "GH1.1.734948550.1538762453" "Mon, 05 Oct 2020 18:00:53 -0000" "/" ".github.com" nil])
+ (".dynalist.io"
+  [url-cookie "HttpOnly" nil "27 Sep 19 14:45:28 [GMT]" "/" ".dynalist.io" nil]
+  [url-cookie "__cfduid" "d74f142e3da2172c690e7d27ef17a2c861538059528" "27 Sep 19 14:45:28 [GMT]" "/" ".dynalist.io" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".github.com"
+  [url-cookie "logged_in" "no" "Tue, 05 Oct 2038 18:00:53 -0000" "/" ".github.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

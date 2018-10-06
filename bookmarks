@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-refile-last-stored"
+ (filename . "~/Dropbox/org/new_work.org")
+ (front-context-string . "** Need to do a ")
+ (rear-context-string . " on the 0881000\n")
+ (position . 4050))
+)
